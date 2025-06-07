@@ -80,7 +80,6 @@ Get bounding boxes and class labels on the image
 
 ### For custom data
 
-``bash
 dataset/
 ├── images/
 │ ├── train/
@@ -92,7 +91,7 @@ dataset/
 
 Each label file should follow the **YOLO format**:
 
-<class_id> <x_center> <y_center> <width> <height>
+<pre> <class_id> <x_center> <y_center> <width> <height> </pre>
 
 ### Dataset Used
   This project uses the **COCO128** dataset — a smaller subset of COCO, designed for testing and small-scale training.
