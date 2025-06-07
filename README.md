@@ -80,25 +80,14 @@ Get bounding boxes and class labels on the image
 
 ### For custom data
 
+```text
 dataset/
 ├── images/
-│ ├── train/
-│ └── val/
+│   ├── train/
+│   └── val/
 ├── labels/
-│ ├── train/
-│ └── val/
-
-## 📂 Dataset Structure
-
-### For Custom Data
-
-dataset/
-├── images/
-│ ├── train/
-│ └── val/
-├── labels/
-│ ├── train/
-│ └── val/
+│   ├── train/
+│   └── val/
 
 Each label file should follow the **YOLO format**:
 
@@ -107,9 +96,6 @@ Each label file should follow the **YOLO format**:
 
 > All values are normalized (between 0 and 1) relative to image width and height.
 
-Each label file should follow the **YOLO format**:
-
-<pre> <class_id> <x_center> <y_center> <width> <height> </pre>
 
 ### Dataset Used
   This project uses the **COCO128** dataset — a smaller subset of COCO, designed for testing and small-scale training.
