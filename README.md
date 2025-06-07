@@ -86,7 +86,8 @@ dataset/
   │ └── val/ </pre>
 
 Each label file should follow YOLO format:
-<pre> <class_id> <x_center> <y_center> <width> <height> </pre>
+
+_<class_id> <x_center> <y_center> <width> <height>_
 
 
 ## 🏋️‍♂️ Training Details
