@@ -77,10 +77,16 @@ Run the detection cell
 Get bounding boxes and class labels on the image
 
 ## 📂 Dataset Structure
-<pre> dataset/ ├── images/ │ ├── train/ │ └── val/ ├── labels/ │ ├── train/ │ └── val/ </pre>
+dataset/ 
+  ├── images/ 
+  │ ├── train/ 
+  │ └── val/ 
+  ├── labels/ 
+  │ ├── train/ 
+  │ └── val/ </pre>
 
 Each label file should follow YOLO format:
-<class_id> <x_center> <y_center> <width> <height>
+<pre> <class_id> <x_center> <y_center> <width> <height> </pre>
 
 
 ## 🏋️‍♂️ Training Details
