@@ -77,19 +77,9 @@ Run the detection cell
 Get bounding boxes and class labels on the image
 
 ## 📂 Dataset Structure
-Your custom dataset should follow the structure below:
-
-dataset/
-├── images/
-│   ├── train/
-│   └── val/
-├── labels/
-│   ├── train/
-│   └── val/
-
+<pre> dataset/ ├── images/ │ ├── train/ │ └── val/ ├── labels/ │ ├── train/ │ └── val/ </pre>
 
 Each label file should follow YOLO format:
-
 <class_id> <x_center> <y_center> <width> <height>
 
 
