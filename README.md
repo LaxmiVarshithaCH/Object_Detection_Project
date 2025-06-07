@@ -92,7 +92,10 @@ dataset/
 
 Each label file should follow the **YOLO format**:
 
-> <class_id> <x_center> <y_center> <width> <height>
+```text
+<class_id> <x_center> <y_center> <width> <height>
+```
+
 All values are normalized (between 0 and 1) relative to image width and height.
 
 
