@@ -59,6 +59,8 @@ cd yolov5
 pip install -r requirements.txt
 ✅ Ensure Python 3.8+ and PyTorch are installed on your system.
 
+---
+
 ## 🚀 How to Use
 
 ### 1. Open the Notebook
@@ -75,6 +77,8 @@ Upload a new image
 Run the detection cell
 
 Get bounding boxes and class labels on the image
+
+---
 
 ## 📂 Dataset Structure 
 
@@ -105,6 +109,7 @@ All values are normalized (between 0 and 1) relative to image width and height.
 - 📁 Downloaded automatically by YOLOv5 if not found
 - 📦 No need to upload manually to the repository
 
+---
 
 ## 🏋️‍♂️ Training Details
 | Parameter     | Value                                                  |
@@ -116,6 +121,7 @@ All values are normalized (between 0 and 1) relative to image width and height.
 | Optimizer     | SGD or Adam                                            |
 | Loss Function | YOLO Loss (Bounding box + Objectness + Classification) |
 
+---
 
 ## 📊 Results
 Training metrics are saved in:
@@ -131,22 +137,28 @@ Example:
 | Precision | 0.92  |
 | Recall    | 0.87  |
 
+---
 
 ## 🖼️ Example Outputs
 | Input Image                | Output with Detections       |
 | -------------------------- | ---------------------------- |
 | ![myimage](https://github.com/user-attachments/assets/d556c770-5f5b-4366-896f-fbf8ca135a4e) | ![download (1)](https://github.com/user-attachments/assets/d536bd72-774e-4f8a-a963-2aabbeb1f8af) |
 
+---
 
 ## 🙋‍♀️ Contributors
 CHENNUPALLI LAXMI VARSHITHA
 
 GitHub: @LaxmiVarshithaCH
 
+---
+
 ## 📄 License
 This project is licensed under the MIT License.
 
 Feel free to use, modify, and distribute it for personal or commercial use.
+
+---
 
 ## 📬 Feedback
 Have suggestions or improvements?
