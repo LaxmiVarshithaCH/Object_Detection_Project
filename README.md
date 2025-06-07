@@ -89,6 +89,11 @@ dataset/
 │   ├── train/
 │   └── val/
 
+</details>
+
+---
+
+
 Each label file should follow the **YOLO format**:
 
 <class_id> <x_center> <y_center> <width> <height>
