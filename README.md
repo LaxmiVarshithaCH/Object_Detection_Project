@@ -76,18 +76,25 @@ Run the detection cell
 
 Get bounding boxes and class labels on the image
 
-## 📂 Dataset Structure
+## 📂 Dataset Structure (for custom data)
 dataset/ 
   ├── images/ 
   │ ├── train/ 
   │ └── val/ 
   ├── labels/ 
   │ ├── train/ 
-  │ └── val/ </pre>
+  │ └── val/ 
+
 
 Each label file should follow YOLO format:
 
 _<class_id> <x_center> <y_center> <width> <height>_
+
+
+  This project uses the **COCO128** dataset — a smaller subset of COCO, designed for testing and small-scale training.
+
+- 📁 Downloaded automatically by YOLOv5 if not found
+- 📦 No need to upload manually to the repository
 
 
 ## 🏋️‍♂️ Training Details
