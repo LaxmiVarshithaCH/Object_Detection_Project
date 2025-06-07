@@ -131,12 +131,15 @@ Example:
 
 ## 🙋‍♀️ Contributors
 CHENNUPALLI LAXMI VARSHITHA
+
 GitHub: @LaxmiVarshithaCH
 
 ## 📄 License
 This project is licensed under the MIT License.
+
 Feel free to use, modify, and distribute it for personal or commercial use.
 
 ## 📬 Feedback
 Have suggestions or improvements?
+
 Feel free to open an issue or submit a pull request. Happy coding! 🚀
