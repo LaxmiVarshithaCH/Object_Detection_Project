@@ -118,9 +118,7 @@ Example:
 ## 🖼️ Example Outputs
 | Input Image                | Output with Detections       |
 | -------------------------- | ---------------------------- |
-| ![myimage](https://github.com/user-attachments/assets/d556c770-5f5b-4366-896f-fbf8ca135a4e)
- | ![Uploading image.png…]()
- |
+| ![myimage](https://github.com/user-attachments/assets/d556c770-5f5b-4366-896f-fbf8ca135a4e) | ![download (1)](https://github.com/user-attachments/assets/d536bd72-774e-4f8a-a963-2aabbeb1f8af) |
 
 
 ## 🙋‍♀️ Contributors
